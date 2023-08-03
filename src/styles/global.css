@@ -1,0 +1,69 @@
+.editor-canvas{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.side-bar {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.side-bar button {
+    border: none;
+}
+.side-bar .side-pattern {
+    display: flex;
+    justify-content: space-between;
+}
+.side-bar .side-pattern .side-pattern-inside {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.side-bar .side-container {
+    padding: 40px;
+}
+.side-bar .side-btn-center {
+    display: flex;
+    justify-content: center;
+}
+.side-bar input {
+    width: 100%;
+}s
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+.footer .btn {
+    display: grid !important;
+}
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
