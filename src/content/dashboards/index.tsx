@@ -13,12 +13,12 @@ function Dashboard() {
       <Helmet>
         <title>Dashboard</title>
       </Helmet>
-      <PageTitleWrapper>
-        <PageHeader />
+      {/* <PageTitleWrapper> */}
+        {/* <PageHeader /> */}
 
-      </PageTitleWrapper>
+      {/* </PageTitleWrapper> */}
       <Container id={"cabbana-canvas-container"}  maxWidth="xl">
-          <Editor/>
+        <Editor/>
       </Container>
       <Footer />
     </>

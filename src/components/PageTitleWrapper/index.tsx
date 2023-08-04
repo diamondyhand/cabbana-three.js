@@ -14,9 +14,10 @@ interface PageTitleWrapperProps {
 
 const PageTitleWrapper: FC<PageTitleWrapperProps> = ({ children }) => {
   return (
-    <PageTitle className="MuiPageTitle-wrapper">
-      <Container maxWidth="lg">{children}</Container>
-    </PageTitle>
+    <div style={{paddingTop: '27px'}}></div>
+    // <PageTitle className="MuiPageTitle-wrapper">
+    //   <Container maxWidth="lg">{children}</Container>
+    // </PageTitle>
   );
 };
 
